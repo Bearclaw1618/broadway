@@ -4,6 +4,7 @@ body {
   }
 .header {
   background-image: url(../resources/images/the-flatiron-building.png);
+  image-resolution: from-image;
 }
 a {
   font-size: 18px;
@@ -21,4 +22,16 @@ h2  {
 h3  {
   font-size: 23px;
   font-weight: bold;
+}
+#nyc {
+  background-image: url(../resources/images/the-flatiron-building.png);
+  font-weight: bold;
+  color: white;
+  font-size: 23px;
+}
+.footer {
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
 }
